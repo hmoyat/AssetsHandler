@@ -1,5 +1,6 @@
 <?php
 $aceMainPath = 'ace-v1.3.1-bs-v5.0.0';
+$aceMainPath = 'ace-v1.3.3';
 return array(
     'application' => array(
         'path' => array(
