@@ -45,6 +45,11 @@ class Module implements AutoloaderProviderInterface
                         $path = $config['application']['path']['images'];
                         return new AssetsHandler($path);
                     },
+                'applicationImgAssetsHandler' => function ($sm) {
+                        $config = $sm->getServiceLocator()->get('Config');
+                        $path = $config['application']['path']['img'];
+                        return new AssetsHandler($path);
+                    },
                 'applicationCssAssetsHandler' => function ($sm) {
                         $config = $sm->getServiceLocator()->get('Config');
                         $path = $config['application']['path']['css'];
