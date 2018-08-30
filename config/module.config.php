@@ -5,6 +5,7 @@ return array(
     'application' => array(
         'path' => array(
             'images' => '/images',
+            'img' => '/img',
             'css' => '/css',
             'js' => '/js'
         )
